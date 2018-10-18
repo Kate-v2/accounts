@@ -11,6 +11,10 @@ class UserController < ApplicationController
 
   def create
     @user = User.create(verify_new_user)
+    # redirect_to SOMEWHERE
+    # WHERE DO I PUT A SESSION ?
+    # HOW DO YOU LOG IN OR OUT ?
+    # WHAT DOES A SESSION MODEL HOLD??
   end
 
 
